@@ -39,7 +39,7 @@ export default function ResumeBody(props: any) {
                     </span>
                     <br />
                     <span>
-                        <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - Working on ASP.NET Core 3.1 MVC (C#) with WebAPI powered with React, MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integartion), Made the application Docker and Kubernetes deployable
+                        <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - Working on ASP.NET Core 3.1 MVC (C#) with WebAPI powered with React, MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), Made the application Docker and Kubernetes deployable
                     </span>
                     <br />
                     <span>
