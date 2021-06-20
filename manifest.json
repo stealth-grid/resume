@@ -8,17 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "personl-file-128.png",
+      "src": "personal-file-128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "personl-file-256.png",
+      "src": "personal-file-256.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "personl-file-512.png",
+      "src": "personal-file-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
