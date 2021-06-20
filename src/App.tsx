@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { Container } from "react-bootstrap"
 import ResumeHeader from './components/ResumeHeader';
 import ResumeBody from './components/ResumeBody';
