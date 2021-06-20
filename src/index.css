@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media print {
+  .app {
+    padding:0 !important;
+  }
+  .pagebreak { page-break-after: always; } /* page-break-after works, as well */
+  .quote-text {
+    margin:0!important;
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Naveen's Resume",
+  "name": "Resume - Naveen Kumar Bollepalli",
   "icons": [
     {
       "src": "personal-profile.ico",
@@ -8,12 +8,17 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "personl-file-128.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "128x128"
     },
     {
-      "src": "logo512.png",
+      "src": "personl-file-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "personl-file-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

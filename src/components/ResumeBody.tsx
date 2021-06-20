@@ -6,7 +6,7 @@ import DetailSection, { DetailContent } from './DetailSection';
 export default function ResumeBody(props: any) {
     return (
         <Container className="body px-0">
-            <Container className="my-2 bg-light rounded shadow-sm py-4 px-3">
+            <Container className="my-2 bg-light rounded shadow-sm py-4 px-3 quote-text">
                 With learning passion to implement what was learned and to achieve something of great vertical extent, making a path for self and others to lead life simpler.
             </Container>
             <DetailSection sectionText={"EDUCATION"}>
@@ -62,6 +62,7 @@ export default function ResumeBody(props: any) {
                     <br />
                 </DetailContent>
             </DetailSection>
+            <div className="pagebreak"> </div>
             <DetailSection sectionText={"PROJECTS"}>
                 <DetailContent headerText={"Area and Power Efficient SQRT Carry-select Adder"}>
                     <span>
@@ -106,6 +107,7 @@ export default function ResumeBody(props: any) {
                     <br />
                 </DetailContent>
             </DetailSection>
+            <div className="pagebreak"> </div>
             <DetailSection sectionText={"WORKSHOPS"}>
                 <DetailContent headerText={"Breakthrough Innovation. University of California, Berkeley"}>
                     <span>
