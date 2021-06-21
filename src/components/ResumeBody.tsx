@@ -2,8 +2,21 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap"
 import "../css/ResumeBody.css";
 import DetailSection, { DetailContent } from './DetailSection';
-
+const mySkills = ["React Native",
+    "ReactJS",
+    "Redux",
+    "Realm JS",
+    "HTML & CSS",
+    "JavaScript",
+    "MongoDB",
+    "Rabbit MQ",
+    "C# ASP.NET",
+    "Node JS",
+    "Azure CI/CD",
+    "Docker & Kubernetes"
+]
 export default function ResumeBody(props: any) {
+
     return (
         <Container className="body px-0">
             <Container className="my-2 bg-light rounded shadow-sm py-4 px-3 quote-text">
@@ -14,21 +27,21 @@ export default function ResumeBody(props: any) {
                     <span>
                         Dhanekula Institute of Engineering and Technology
                         <br />
-                        Years: 2011 - 2015, Percentile: <span className={"font-weight-bold"}>72.83%</span>
+                        Years: 2011 - 2015, Percentage: <span className={"font-weight-bold"}>72.83%</span>
                     </span>
                 </DetailContent>
                 <DetailContent headerText={"Standard XII / Intermediate."}>
                     <span>
                         Sri Chaitanya Jr College
                         <br />
-                        Years: 2009 - 2011, Percentile: <span className={"font-weight-bold"}>70.8%</span>
+                        Years: 2009 - 2011, Percentage: <span className={"font-weight-bold"}>70.8%</span>
                     </span>
                 </DetailContent>
                 <DetailContent headerText={"Schooling / SSC"}>
                     <span>
                         Railway Mixed High School
                         <br />
-                        Year: 2009, Percentile: <span className={"font-weight-bold"}>64.16%</span>
+                        Year: 2009, Percentage: <span className={"font-weight-bold"}>64.16%</span>
                     </span>
                 </DetailContent>
             </DetailSection>
@@ -49,15 +62,15 @@ export default function ResumeBody(props: any) {
                 </DetailContent>
                 <DetailContent headerText={"Tata Consultancy Services - (Oct 2015 - Nov 2018)"}>
                     <span>
-                        <span className={"font-weight-bold text-muted"}>Client - </span>Al Mashreq Bank (Banking and Financial Services) - Worked on Visual Basics Application Developer.
+                        <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>Al Mashreq Bank</span> (Banking and Financial Services) - Worked on Visual Basics Application Developer.
                     </span>
                     <br />
                     <span>
-                        <span className={"font-weight-bold text-muted"}>Client - </span>PNB MetLife Insurance Ltd (Insurance) - Worked on C# (Web services) & SQL developer and ESB tool - Microsoft BizTalk Server 2010.
+                        <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>PNB MetLife Insurance Ltd</span> (Insurance) - Worked on C# (Web services) & SQL developer and ESB tool - Microsoft BizTalk Server 2010.
                     </span>
                     <br />
                     <span>
-                        <span className={"font-weight-bold text-muted"}>Client - </span>TCS In house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6) and Node.js.
+                        <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6) and Node.js.
                     </span>
                     <br />
                 </DetailContent>
@@ -77,23 +90,12 @@ export default function ResumeBody(props: any) {
                     <br />
                 </DetailContent>
             </DetailSection>
-            <DetailSection sectionText={"SKILS"}>
+            <DetailSection sectionText={"SKILLS"}>
                 <Row className={"mb-4 px-3"}>
-                    <Col md={3} className={"font-weight-bold"}>React Native</Col>
-                    <Col md={3} className={"font-weight-bold"}>ReactJS</Col>
-                    <Col md={3} className={"font-weight-bold"}>Redux</Col>
-                    <Col md={3} className={"font-weight-bold"}>Realm JS</Col>
-                    <Col md={3} className={"font-weight-bold"}>HTML & CSS</Col>
-                    <Col md={3} className={"font-weight-bold"}>JavaScript</Col>
-                    <Col md={3} className={"font-weight-bold"}>MongoDB</Col>
-                    <Col md={3} className={"font-weight-bold"}>Rabbit MQ</Col>
-                    <Col md={3} className={"font-weight-bold"}>C# ASP.NET</Col>
-                    <Col md={3} className={"font-weight-bold"}>Node JS</Col>
-                    <Col md={3} className={"font-weight-bold"}>Azure CI/CD</Col>
-                    <Col md={3} className={"font-weight-bold"}>Docker & Kubernetes</Col>
+                    {mySkills.map((skill:string) => <Col md={3} key={skill} className={"font-weight-bold text-center"}><span className={"bg-light shadow-sm card border-0 mb-2"}>{skill}</span></Col>)}
                 </Row>
             </DetailSection>
-            <DetailSection sectionText={"ADDITIVE SKILS"}>
+            <DetailSection sectionText={"ADDITIVE SKILLS"}>
                 <DetailContent headerText={"Home controlling device using Raspberry PI 3 Model B"}>
                     <span>
                         Working On a Smartphone Controlled Home automation Project, Raspberry PI as the control server using Node JS and Express JS. Actuators and relays controlled over GPIO of Raspberry PI. Cross platform mobile app for over the internet control, using React Native.
