@@ -16,7 +16,7 @@ export default function ResumeHeader(props: any) {
                 <Container className="display-info font-weight-bold">
                     Principal Software Developer
                 </Container>
-                <Container className="">
+                <Container className="" id={"email"}>
                     <a href="mailto:naveenbollepalli@yahoo.com">
                         E .  naveenbollepalli@yahoo.com
                     </a>
