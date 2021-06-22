@@ -201,7 +201,7 @@ export default function ResumeBody(props: any) {
 
     return (
         <Container fluid className="body px-0">
-            <Container fluid className="my-2 bg-light rounded shadow-sm py-4 px-3 quote-text">
+            <Container fluid className="my-2 bg-light rounded shadow-sm p-3 mx-3 w-auto quote-text">
                 With learning passion to implement what was learned and to achieve something of great vertical extent, making a path for self and others to lead life simpler.
             </Container>
             <DetailSection detail={Career} />
