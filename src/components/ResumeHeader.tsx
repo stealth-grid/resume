@@ -1,9 +1,8 @@
-import React from 'react';
 import { Col, Container, Row } from "react-bootstrap"
 import "../css/ResumeHeader.css";
 
 export default function ResumeHeader(props: any) {
-    return (<Container className="header">
+    return (<Container fluid className="header">
         <Row className={"d-flex align-items-center"}>
             <Col md={6} className="text-left my-3">
                 <Container className="display-name h3 font-weight-bold">
