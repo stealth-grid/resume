@@ -2,7 +2,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import "../css/ResumeBody.css";
 import DetailSection, { IDetailSection } from './DetailSection';
 
-const SkillsList = ["React Native",
+const SkillsList = [
+    "React Native",
     "React.JS",
     "Redux",
     "Realm JS",
@@ -15,7 +16,6 @@ const SkillsList = ["React Native",
     "Azure CI/CD",
     "Docker & Kubernetes"
 ]
-
 
 const Education: IDetailSection = {
     title: "EDUCATION",
@@ -138,7 +138,7 @@ const AdditiveSkills: IDetailSection = {
             contentTitle: "A Hostable Resume",
             details: (<>
                 <span>
-                    The skills and experience mentioned in a resume are to brief on the major technologies one has worked on. Developers work a lot more than what one can present in a Resume. The goal of this Concept is to fill that gap. To provide a hostable resume template, which can be extracted either as a brief or can be navigated to a full-length detailed skill set.
+                    A Hostable Resume Template generated using React JS. To provide Brief and Detailed versions. Currently hosted using Git Pages and Auto deployed using Git Actions.
                 </span>
                 <br />
             </>)
