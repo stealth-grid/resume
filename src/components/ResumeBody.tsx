@@ -189,7 +189,7 @@ const Workshops: IDetailSection = {
             contentTitle: "Nation Building through personality development and career planning",
             details: (<>
                 <span>
-                    In-depth coverage of the art of living, soft skills, communication skills, equanimity and team WORK, self-confidence, corporate etiquette, problem-solving abilities, and secrets of success
+                    In-depth coverage of the art of living, soft skills, communication skills, equanimity and teamwork, self-confidence, corporate etiquette, problem-solving abilities, and secrets of success
                 </span>
                 <br />
             </>)
