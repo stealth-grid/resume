@@ -58,11 +58,11 @@ const Career: IDetailSection = {
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - React.JS Application with Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - React.JS Application with Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment.
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Dispatcher</span> - React.JS Application with Typescript & Redux. Also added Support for RocketChat Messaging server to be able to deploy in Windows servers. Modified The Chat Server to expose underlying APIs & database for functionality enhancements
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Dispatcher</span> - React.JS Application with Typescript & Redux. Also added Support for RocketChat Messaging server to be able to deploy in Windows servers. Modified The Chat Server to expose underlying APIs & database for functionality enhancements.
                 </span>
                 <br />
             </>)
@@ -79,11 +79,11 @@ const Career: IDetailSection = {
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In-house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6), and Node.js. Prototyped applications for WebRTC communications using PWA, Cordova & React Native
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In-house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6), and Node.js. Prototyped applications for WebRTC communications using PWA, Cordova & React Native.
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> E-Agent Application - Cordova application with React & Redux
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> E-Agent Application - Cordova application with React & Redux, HTML5, CSS3 & JavaScript.
                 </span>
                 <br />
             </>)
@@ -189,7 +189,7 @@ const Workshops: IDetailSection = {
             contentTitle: "Nation Building through personality development and career planning",
             details: (<>
                 <span>
-                    In-depth coverage of the art of living, soft skills, communication skills, equanimity and teamwork, self-confidence, corporate etiquette, problem-solving abilities, and secrets of success
+                    In-depth coverage of the art of living, soft skills, communication skills, equanimity and teamwork, self-confidence, corporate etiquette, problem-solving abilities, and secrets of success.
                 </span>
                 <br />
             </>)
