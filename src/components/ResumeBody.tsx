@@ -54,19 +54,15 @@ const Career: IDetailSection = {
             contentTitle: "Hexagon Capability Center India - (Since Dec 2018)",
             details: (<>
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - Working on React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - Working on ASP.NET Core 3.1 MVC (C#) with WebAPI powered with React, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - React.JS Application with Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Dispatcher</span> - Added Support for RocketChat Messaging server to be able to deploy in Windows servers. Modified The Chat Server to expose underlying APIs & database for functionality enhancements
-                </span>
-                <br />
-                <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Administrator</span> - Worked on Java Spring Application with microservices in a containerized environment.
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Dispatcher</span> - React.JS Application with Typescript & Redux. Also added Support for RocketChat Messaging server to be able to deploy in Windows servers. Modified The Chat Server to expose underlying APIs & database for functionality enhancements
                 </span>
                 <br />
             </>)
@@ -84,6 +80,10 @@ const Career: IDetailSection = {
                 <br />
                 <span>
                     <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In-house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6), and Node.js. Prototyped applications for WebRTC communications using PWA, Cordova & React Native
+                </span>
+                <br />
+                <span>
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> E-Agent Application - Cordova application with React & Redux
                 </span>
                 <br />
             </>)
