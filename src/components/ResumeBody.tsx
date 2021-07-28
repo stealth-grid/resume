@@ -62,7 +62,7 @@ const Career: IDetailSection = {
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration.
                 </span>
                 <br />
             </>)
@@ -79,7 +79,7 @@ const Career: IDetailSection = {
                 </span>
                 <br />
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>PNB MetLife Insurance Ltd</span> (Insurance) - React.JS, HTML, CSS, JavaScript with C# (Web services) and ESB tool - Microsoft BizTalk Server 2010.
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>PNB MetLife Insurance Ltd</span> (Insurance) - React.JS, HTML, CSS, JavaScript with C# (Web services) & Microsoft BizTalk Server 2010.
                 </span>
                 <br />
                 <span>
