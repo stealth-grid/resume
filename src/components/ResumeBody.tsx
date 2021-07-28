@@ -3,10 +3,10 @@ import "../css/ResumeBody.css";
 import DetailSection, { IDetailSection } from './DetailSection';
 
 const SkillsList = [
-    "React Native",
     "React.JS",
     "Redux",
     "Realm JS",
+    "React Native",
     "JavaScript",
     "HTML & CSS",
     "Rabbit MQ",
@@ -54,15 +54,15 @@ const Career: IDetailSection = {
             contentTitle: "Hexagon Capability Center India - (Since Dec 2018)",
             details: (<>
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
-                </span>
-                <br />
-                <span>
                     <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile Server</span> - React.JS Application with Typescript & Redux integrated to DotNetCore 3.1 with WebAPI as backend, Integrated High Availablity MongoDB(Replica Set Configured with X.509 certification), RabbitMQ(Messaging Queue Integration), and Added support for Docker and Kubernetes deployment.
                 </span>
                 <br />
                 <span>
                     <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Dispatcher</span> - React.JS Application with Typescript & Redux. Also added Support for RocketChat Messaging server to be able to deploy in Windows servers. Modified The Chat Server to expose underlying APIs & database for functionality enhancements.
+                </span>
+                <br />
+                <span>
+                    <span className={"font-weight-bold text-muted"}>Product - </span><span className={"font-italic"}>OnCall Mobile</span> - React Native, with Redux and RealmJS. Added the following features support to the product - Firebase Messaging/RabbitMQ Messaging(MQTT), Background location tracking, Map Integration, RocketChat Messaging Integration, and many more.
                 </span>
                 <br />
             </>)
@@ -71,19 +71,19 @@ const Career: IDetailSection = {
             contentTitle: "Tata Consultancy Services - (Oct 2015 - Nov 2018)",
             details: (<>
                 <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>Al Mashreq Bank</span> (Banking and Financial Services) - Worked on Visual Basics Application Developer.
-                </span>
-                <br />
-                <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>PNB MetLife Insurance Ltd</span> (Insurance) - Worked on C# (Web services) & SQL developer and ESB tool - Microsoft BizTalk Server 2010.
-                </span>
-                <br />
-                <span>
-                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In-house Project - Worked on React Native, Redux, Realm JS, JavaScript (ES6), and Node.js. Prototyped applications for WebRTC communications using PWA, Cordova & React Native.
-                </span>
-                <br />
-                <span>
                     <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> E-Agent Application - Cordova application with React & Redux, HTML5, CSS3 & JavaScript.
+                </span>
+                <br />
+                <span>
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>TCS</span> In-house Project - React Native, Redux, Realm JS, JavaScript (ES6), and Node.js. Prototyped applications for WebRTC communications using PWA, Cordova & React Native.
+                </span>
+                <br />
+                <span>
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>PNB MetLife Insurance Ltd</span> (Insurance) - React.JS, HTML, CSS, JavaScript with C# (Web services) and ESB tool - Microsoft BizTalk Server 2010.
+                </span>
+                <br />
+                <span>
+                    <span className={"font-weight-bold text-muted"}>Client - </span><span className={"font-italic"}>Al Mashreq Bank</span> (Banking and Financial Services) - Visual Basics Application Developer.
                 </span>
                 <br />
             </>)
